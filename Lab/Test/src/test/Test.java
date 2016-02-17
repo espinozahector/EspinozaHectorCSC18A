@@ -19,14 +19,43 @@ public class Test {
 //        System.out.print("Hello World\n");
         //Learn the basics of java
         System.out.println("Hello World");//Used to print out and ends line
+        System.out.print("--------------------------\n");
         //Adding numbers
         int x = 10;//Variables
         int y = 20;//Variables
         int result = x + y;//Sets a new variable equal to the sum of x and y
         System.out.println("result = "+result);//Used to print the result value
-        //If statement 
+        
+        System.out.print("--------------------------\n");
         ExampleWhile obj = new ExampleWhile();
         obj.whileloop();
+        ExampleArray arr = new ExampleArray();
+        System.out.print("--------------------------\n");
+        arr.array();
+        System.out.print("--------------------------\n");
+        arr.funarray();
+        System.out.print("--------------------------\n");
+        arr.twoDimension();
+        System.out.print("--------------------------\n");
+        ExampleString s = new ExampleString();
+        s.stringstring();
+        System.out.print("--------------------------\n");
+        s.ConvertString();
+        System.out.print("--------------------------\n");
+        System.out.println("Exercise A");
+        s.ExerciseA();
+        System.out.print("--------------------------\n");
+        System.out.println("Employee Example");
+        Employee alex = new Employee();
+        Employee linda = new Employee();
+        Employee john = new Employee();
+        alex.salary = 90000;
+        alex.bonus = 20000;
+        System.out.print("Alex: $");
+        alex.CalculateTotalPay();
+        
+        
+        
     }
     
 }

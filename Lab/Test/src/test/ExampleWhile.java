@@ -9,7 +9,7 @@ package test;
 public class ExampleWhile {
     
     public void whileloop(){
-        
+        System.out.println("While Loop");
         int x = -10;
         
         while(x <= 10){
