@@ -1,0 +1,45 @@
+==============================
+3/24/16
+==============================
+Method Overloading
+	method/function
+	name mangling
+	"symbol table"
+	add_ll    "ll is for the type of the parameters that are going into the add method"
+	
+//Different ways to overload a method/function
+code: public static lond add(long x,long y){
+	return x + y;
+}
+code: public static long add(long x,long y,long z){
+	return x + y + z;
+}
+code: public static float add(float x,flaot y){
+	return x+y;
+}
+
+Recursion "Essentially is a loop"- when a function
+
+Two main parts:
+	1. Base Case/Exit condition
+	2. Recursive call (function calling itself)
+	
+Code: public static double factorial(int n){
+	if(n==0 || n==1) return 1; //base case 0!=1 1!=1
+	
+	return n * factorial(n-1);
+}
+//Use recursive with big integer
+Code:
+import java.math.BigInteger;
+
+public static BigInteger factorial(int n){
+	if(n.compareTo(BigInteger.ZERO)==0 || n.compareTo(BigInteger.ONE)==0) return BigInteger.ONE; //base case 0!=1 1!=1
+	
+	return n.multiply(fact(n.subtract(BigInteger.ONE)));
+	
+}
+
+
+
+

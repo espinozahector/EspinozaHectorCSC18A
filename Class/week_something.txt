@@ -1,0 +1,8 @@
+Abstract Class - like a blue print/ template.// cannot be instantiated
+we are allowed to have member variables of any kind member functions and abstract member functions
+
+Abstract member functions are functions that are declared but NOT implemented
+
+Interface - cantract of public member functions that tell us what functions a program needs to work.
+The implemention of our functions is up to us.
+

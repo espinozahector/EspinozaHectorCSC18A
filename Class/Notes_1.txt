@@ -1,0 +1,25 @@
+Programming: CSC- 18A-Spring 2016
+Notes: 
+Date: February 25, 2016
+-----------------------------------------------------------------
+Printf ( format string , variable # arguments)
+EX code: 
+	int x = 5;
+	Int y = 8;
+	System.out.printf (" %d + %d = %d \n " , x , y , x + y );
+	
+“The %d will want 3 parameters now in the end”;
+
+Printf ( ) cheat sheet -> http://alvinalexander.com/programming/printf-format-cheat-sheet
+
+To zero-fill your printf integer output, just add a zero (0) after the % symbol, like this:
+printf("%03d", 1);   output -> 001
+" 3 is the number of spaces, "
+
+"Why can a java program run onto any machine"
+JVM (Java virtual machine)
+The java file is ran thru the JVM.
+
+Arithmitic Operators
++,-,*,/,% 
+addition,subtraction,multiplication,division,remainder/mod/modulus
